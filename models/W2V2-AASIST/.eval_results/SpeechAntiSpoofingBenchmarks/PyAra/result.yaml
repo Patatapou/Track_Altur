@@ -1,0 +1,19 @@
+schema_version: 1
+system:
+  name: W2V2-AASIST
+  slug: w2v2-aasist
+  paper:
+    arxiv_id: '2202.12233'
+dataset:
+  id: SpeechAntiSpoofingBenchmarks/PyAra
+  revision: 43f03384ee9ad701a64e0baaa531c8aedd724cd8
+  split: test
+scores:
+  eer_percent: 3.0115651713031544
+  n_trials: 201778
+  n_skipped: 0
+arena:
+  url: https://huggingface.co/spaces/SpeechAntiSpoofingBenchmarks/SpeechAntiSpoofingArena
+  system_url: https://huggingface.co/spaces/SpeechAntiSpoofingBenchmarks/SpeechAntiSpoofingArena?system=w2v2-aasist
+artifact:
+  scores_url: https://huggingface.co/SpeechAntiSpoofingBenchmarks/W2V2-AASIST/resolve/f35886ee5084ce080e42b704bdad637b7e7cd60c/.eval_results/SpeechAntiSpoofingBenchmarks/PyAra/scores.txt

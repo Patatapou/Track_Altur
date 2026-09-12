@@ -1,0 +1,19 @@
+schema_version: 1
+system:
+  name: W2V2-AASIST
+  slug: w2v2-aasist
+  paper:
+    arxiv_id: '2202.12233'
+dataset:
+  id: SpeechAntiSpoofingBenchmarks/XMAD
+  revision: c041cf1fbd24d491bf335e561db03b5221db8a05
+  split: test
+scores:
+  eer_percent: 24.14127243538753
+  n_trials: 368085
+  n_skipped: 0
+arena:
+  url: https://huggingface.co/spaces/SpeechAntiSpoofingBenchmarks/SpeechAntiSpoofingArena
+  system_url: https://huggingface.co/spaces/SpeechAntiSpoofingBenchmarks/SpeechAntiSpoofingArena?system=w2v2-aasist
+artifact:
+  scores_url: https://huggingface.co/SpeechAntiSpoofingBenchmarks/W2V2-AASIST/resolve/95ce77a0a3adf6d088c1a39d1dcb5622f8341924/.eval_results/SpeechAntiSpoofingBenchmarks/XMAD/scores.txt

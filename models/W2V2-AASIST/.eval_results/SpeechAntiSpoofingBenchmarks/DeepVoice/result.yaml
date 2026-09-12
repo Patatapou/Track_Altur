@@ -1,0 +1,19 @@
+schema_version: 1
+system:
+  name: W2V2-AASIST
+  slug: w2v2-aasist
+  paper:
+    arxiv_id: '2202.12233'
+dataset:
+  id: SpeechAntiSpoofingBenchmarks/DeepVoice
+  revision: c2a5441b1c83d68d2eaf4c68dd7fcd9ba2aa887e
+  split: test
+scores:
+  eer_percent: 45.06369426751593
+  n_trials: 5053
+  n_skipped: 0
+arena:
+  url: https://huggingface.co/spaces/SpeechAntiSpoofingBenchmarks/SpeechAntiSpoofingArena
+  system_url: https://huggingface.co/spaces/SpeechAntiSpoofingBenchmarks/SpeechAntiSpoofingArena?system=w2v2-aasist
+artifact:
+  scores_url: https://huggingface.co/SpeechAntiSpoofingBenchmarks/W2V2-AASIST/resolve/12e215bc902b5862bfe1b91fc4dea80e69eb4a03/.eval_results/SpeechAntiSpoofingBenchmarks/DeepVoice/scores.txt

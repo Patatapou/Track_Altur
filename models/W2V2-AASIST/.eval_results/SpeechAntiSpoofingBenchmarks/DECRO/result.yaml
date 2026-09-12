@@ -1,0 +1,19 @@
+schema_version: 1
+system:
+  name: W2V2-AASIST
+  slug: w2v2-aasist
+  paper:
+    arxiv_id: '2202.12233'
+dataset:
+  id: SpeechAntiSpoofingBenchmarks/DECRO
+  revision: bb6df2524eadaab6aa6a2366a41a2a5fe1e4104d
+  split: test
+scores:
+  eer_percent: 9.572731637061931
+  n_trials: 37314
+  n_skipped: 0
+arena:
+  url: https://huggingface.co/spaces/SpeechAntiSpoofingBenchmarks/SpeechAntiSpoofingArena
+  system_url: https://huggingface.co/spaces/SpeechAntiSpoofingBenchmarks/SpeechAntiSpoofingArena?system=w2v2-aasist
+artifact:
+  scores_url: https://huggingface.co/SpeechAntiSpoofingBenchmarks/W2V2-AASIST/resolve/e22d2e6af8e8245c2ac1f2810e4c913bf4368865/.eval_results/SpeechAntiSpoofingBenchmarks/DECRO/scores.txt

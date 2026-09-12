@@ -1,0 +1,19 @@
+schema_version: 1
+system:
+  name: W2V2-AASIST
+  slug: w2v2-aasist
+  paper:
+    arxiv_id: '2202.12233'
+dataset:
+  id: SpeechAntiSpoofingBenchmarks/ODSS
+  revision: a9a7dfb3e2cd3a4df8a08ba3f3705ed36db193d7
+  split: test
+scores:
+  eer_percent: 39.22497762333491
+  n_trials: 26954
+  n_skipped: 0
+arena:
+  url: https://huggingface.co/spaces/SpeechAntiSpoofingBenchmarks/SpeechAntiSpoofingArena
+  system_url: https://huggingface.co/spaces/SpeechAntiSpoofingBenchmarks/SpeechAntiSpoofingArena?system=w2v2-aasist
+artifact:
+  scores_url: https://huggingface.co/SpeechAntiSpoofingBenchmarks/W2V2-AASIST/resolve/2ea981202a4afef65256efbd727d81e28b562a7c/.eval_results/SpeechAntiSpoofingBenchmarks/ODSS/scores.txt

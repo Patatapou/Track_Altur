@@ -1,0 +1,19 @@
+schema_version: 1
+system:
+  name: W2V2-AASIST
+  slug: w2v2-aasist
+  paper:
+    arxiv_id: '2202.12233'
+dataset:
+  id: SpeechAntiSpoofingBenchmarks/HABLA
+  revision: 520797e46fdeb1f3a3765664a6a4e25b509c72f5
+  split: test
+scores:
+  eer_percent: 7.110344827586207
+  n_trials: 80816
+  n_skipped: 0
+arena:
+  url: https://huggingface.co/spaces/SpeechAntiSpoofingBenchmarks/SpeechAntiSpoofingArena
+  system_url: https://huggingface.co/spaces/SpeechAntiSpoofingBenchmarks/SpeechAntiSpoofingArena?system=w2v2-aasist
+artifact:
+  scores_url: https://huggingface.co/SpeechAntiSpoofingBenchmarks/W2V2-AASIST/resolve/6ef1e6c8c39370faef1e22678cb45f9d5a65d662/.eval_results/SpeechAntiSpoofingBenchmarks/HABLA/scores.txt

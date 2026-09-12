@@ -1,0 +1,24 @@
+schema_version: 4
+system:
+  name: W2V2-AASIST
+  slug: null
+  description: null
+  code: null
+  checkpoint: null
+  paper: null
+dataset:
+  id: SpeechAntiSpoofingBenchmarks/EmoFake_test
+  revision: null
+  split: test
+scores:
+  eer_percent: 1.342857142857143
+  n_trials: 17500
+  n_skipped: 0
+artifact:
+  scores_url: null
+  scores_sha256: d76b52b41ce5ed0085c659beef3411dc80787d1480d8e737e3a8feb59e4d74c1
+  bench_version: speech-spoof-bench==0.4.1
+reproduction: {}
+submitter: {}
+submitted_at: null
+notes: null
